@@ -15,4 +15,4 @@ def property_list(request):
             "created_at": p.created_at.isoformat(),
         } for p in properties
     ]
-    return JsonResponse(data, safe=False)
+    return JsonResponse({data}, safe=False)
