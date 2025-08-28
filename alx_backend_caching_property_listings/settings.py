@@ -21,7 +21,7 @@ CACHES = {
     }
 }
 
-INSTALLED_APPS += [
+INSTALLED_APPS = [
     "django_redis",
     "properties",
 ]
